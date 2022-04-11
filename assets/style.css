@@ -13,6 +13,26 @@ body {
     font-weight: 600;
 }
 
+#taskInput {
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 5px 0 0;
+}
+
+#addButton {
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    background-color: rgb(235, 218, 197);
+    color: black;
+}
+
+#addButton:hover {
+    cursor: pointer;
+    border: 1px solid salmon;
+}
+
 #explicacao {
     font-size: 10pt;
 }
